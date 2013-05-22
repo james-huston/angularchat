@@ -1,0 +1,7 @@
+<div id="chatWindow" autoscroll-down >
+	<div ng-repeat="message in chatMessages">{{message.content}}</div>
+</div>
+<div>
+	<input id='inputNewMessage' ng-model="newMessage" required />
+	<button ng-click="sendChat()" focusinput="#inputNewMessage" id="buttonSend">Send</button>
+</div>
