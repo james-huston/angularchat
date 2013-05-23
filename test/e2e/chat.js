@@ -35,6 +35,7 @@ describe('When the chat page loads', function () {
         input('newMessage').enter('What is your name?');
         element('#buttonSend').click();
         expect(input('newMessage').val()).toBe('');
+        expect(element('#chatWindow', 'chat messages').html()).toMatch(/What is your name\?/);
 
         input('newMessage').enter('Bob');
         element('#buttonSend').click();

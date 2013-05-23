@@ -2,7 +2,8 @@
   "name": "angular-two",
   "version": "0.0.0",
   "dependencies": {
-    "express": "~3.2.4"
+    "express": "~3.2.4",
+    "socket.io": "~0.9.14"
   },
   "devDependencies": {
     "grunt": "~0.4.1",

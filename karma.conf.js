@@ -11,6 +11,7 @@ files = [
   'app/components/angular/angular.js',
   'app/components/angular-mocks/angular-mocks.js',
   'app/components/angular-resource/angular-resource.js',
+  'app/components/socket.io-client/dist/socket.io.js',
   'app/scripts/*.js',
   'app/scripts/**/*.js',
   //'test/mock/**/*.js',
@@ -22,7 +23,7 @@ exclude = [];
 
 // test results reporter to use
 // possible values: dots || progress || growl
-reporters = ['progress'];
+reporters = ['dots'];
 
 // web server port
 port = 8080;
